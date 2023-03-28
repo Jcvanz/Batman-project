@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #0e3399;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.hero-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/013/003/539/large/gray-rogers-bat-env-batcave-armory.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 2%;
+}
+
+.hero-content {
+    height: 200%;
+    background-color: rgba(188, 188, 188, 0.33);
+    width: 90%; 
+    border-radius: 50px;
+    border: 5px solid #969696;
+}
+
+.profile-container {
+    background-color: rgba(90, 90, 90, 0);
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 10%;
+    margin-left: 25%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgba(118, 118, 118, 0);
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+    column-gap: 35px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 25% 25%;
+    border-radius: 30px;
+    border: 5px solid #969696;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.card:hover {
+    border-radius: 10px;
+    border: 3px solid #000000;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner1 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=7e85238cd2616f7ec93854c130f1418493508e2e-8391913-images-thumbs&n=13');
+}
+
+.banner2 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=ad8961bccd6877eb6ea8a0a7d96edb8992394ad6-7016539-images-thumbs&n=13');
+}
+
+.banner3 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=ff16ae077a9b44199593466eb7bcbfc78091c92b-8529854-images-thumbs&n=13');
+}
+
+.banner4 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=67ed3528dd08826904bd0d20cfef0ec7-4399581-images-thumbs&n=13');
+}
+
+.banner5 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=2a55f1c3e91ff764fe5fc3bed75f29845d3affde-5219999-images-thumbs&n=13');
+
+}
+
+.banner6 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=4a7943213deb563e319967a4b330e8b65acabd1b-7552082-images-thumbs&n=13');
+}
+
+.banner7 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=2720de5fb0903650994c9d52112691d9-5222088-images-thumbs&n=13');
+}
+
+.banner8 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=d4cba5e74ec425cfbd2333d6955ba47ea2df1925-5232416-images-thumbs&n=13');
+}
+
+.banner9 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=20aeec3d4dcffde457f50ee7ef57cc2166786e14-8200978-images-thumbs&n=13');
+}
+
+.banner10 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=9b7be55295ba9c103b3907eee03b0b66260560e0-8498339-images-thumbs&n=13');
+}
+
+.banner11 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=f51d9baff3f3d7441ed48389aeb3fc68e74ecc2b-7000229-images-thumbs&n=13');
+}
+
+.banner12 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=f2c52a893b79e624a85d95d0b158baa4-5289221-images-thumbs&n=13');
+}
+
+.banner13 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=01de3ba224df31ad1cb50b74a7690d32496da468-7662004-images-thumbs&n=13');
+}
+
+.banner14 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=192659553a49fd3267e7eb6f06a76d6074ba997d-7753086-images-thumbs&n=13');
+}
+
+.banner15 {
+    background-image: url('https://avatars.mds.yandex.net/i?id=fc945de2ad1cce4635298f14a2b53132e68d9189-7051980-images-thumbs&n=13');
+}
+
+#space-contant {
+    margin-bottom: 10%;
+}
+
+#space {
+    margin: 10% 25%;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40%;
+    }
+
+    .cards-content {
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 25px;
+    column-gap: 35px;
+    }
+
+    h1 {
+    color: #fefefe;
+    margin-top: 10%;
+    margin-left: 25%;
+    font-size: medium;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    }
+}
+
